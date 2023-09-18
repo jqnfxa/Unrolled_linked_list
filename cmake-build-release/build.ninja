@@ -55,29 +55,29 @@ build CMakeFiles/Algorithms_lb1.dir/main.cpp.o: CXX_COMPILER__Algorithms_lb1_uns
   OBJECT_DIR = CMakeFiles/Algorithms_lb1.dir
   OBJECT_FILE_DIR = CMakeFiles/Algorithms_lb1.dir
 
-build CMakeFiles/Algorithms_lb1.dir/Timer.cpp.o: CXX_COMPILER__Algorithms_lb1_unscanned_Release /home/shard/CLionProjects/Algorithms_lb1/Timer.cpp || cmake_object_order_depends_target_Algorithms_lb1
-  DEP_FILE = CMakeFiles/Algorithms_lb1.dir/Timer.cpp.o.d
+build CMakeFiles/Algorithms_lb1.dir/src/Timer.cpp.o: CXX_COMPILER__Algorithms_lb1_unscanned_Release /home/shard/CLionProjects/Algorithms_lb1/src/Timer.cpp || cmake_object_order_depends_target_Algorithms_lb1
+  DEP_FILE = CMakeFiles/Algorithms_lb1.dir/src/Timer.cpp.o.d
   FLAGS = -O3 -DNDEBUG -O2 -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/Algorithms_lb1.dir
-  OBJECT_FILE_DIR = CMakeFiles/Algorithms_lb1.dir
+  OBJECT_FILE_DIR = CMakeFiles/Algorithms_lb1.dir/src
 
-build CMakeFiles/Algorithms_lb1.dir/UnrolledLinkedList.cpp.o: CXX_COMPILER__Algorithms_lb1_unscanned_Release /home/shard/CLionProjects/Algorithms_lb1/UnrolledLinkedList.cpp || cmake_object_order_depends_target_Algorithms_lb1
-  DEP_FILE = CMakeFiles/Algorithms_lb1.dir/UnrolledLinkedList.cpp.o.d
+build CMakeFiles/Algorithms_lb1.dir/src/UnrolledLinkedList.cpp.o: CXX_COMPILER__Algorithms_lb1_unscanned_Release /home/shard/CLionProjects/Algorithms_lb1/src/UnrolledLinkedList.cpp || cmake_object_order_depends_target_Algorithms_lb1
+  DEP_FILE = CMakeFiles/Algorithms_lb1.dir/src/UnrolledLinkedList.cpp.o.d
   FLAGS = -O3 -DNDEBUG -O2 -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/Algorithms_lb1.dir
-  OBJECT_FILE_DIR = CMakeFiles/Algorithms_lb1.dir
+  OBJECT_FILE_DIR = CMakeFiles/Algorithms_lb1.dir/src
 
-build CMakeFiles/Algorithms_lb1.dir/Node.cpp.o: CXX_COMPILER__Algorithms_lb1_unscanned_Release /home/shard/CLionProjects/Algorithms_lb1/Node.cpp || cmake_object_order_depends_target_Algorithms_lb1
-  DEP_FILE = CMakeFiles/Algorithms_lb1.dir/Node.cpp.o.d
+build CMakeFiles/Algorithms_lb1.dir/src/Node.cpp.o: CXX_COMPILER__Algorithms_lb1_unscanned_Release /home/shard/CLionProjects/Algorithms_lb1/src/Node.cpp || cmake_object_order_depends_target_Algorithms_lb1
+  DEP_FILE = CMakeFiles/Algorithms_lb1.dir/src/Node.cpp.o.d
   FLAGS = -O3 -DNDEBUG -O2 -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/Algorithms_lb1.dir
-  OBJECT_FILE_DIR = CMakeFiles/Algorithms_lb1.dir
+  OBJECT_FILE_DIR = CMakeFiles/Algorithms_lb1.dir/src
 
-build CMakeFiles/Algorithms_lb1.dir/Generator.cpp.o: CXX_COMPILER__Algorithms_lb1_unscanned_Release /home/shard/CLionProjects/Algorithms_lb1/Generator.cpp || cmake_object_order_depends_target_Algorithms_lb1
-  DEP_FILE = CMakeFiles/Algorithms_lb1.dir/Generator.cpp.o.d
+build CMakeFiles/Algorithms_lb1.dir/src/Generator.cpp.o: CXX_COMPILER__Algorithms_lb1_unscanned_Release /home/shard/CLionProjects/Algorithms_lb1/src/Generator.cpp || cmake_object_order_depends_target_Algorithms_lb1
+  DEP_FILE = CMakeFiles/Algorithms_lb1.dir/src/Generator.cpp.o.d
   FLAGS = -O3 -DNDEBUG -O2 -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/Algorithms_lb1.dir
-  OBJECT_FILE_DIR = CMakeFiles/Algorithms_lb1.dir
+  OBJECT_FILE_DIR = CMakeFiles/Algorithms_lb1.dir/src
 
 
 # =============================================================================
@@ -87,7 +87,7 @@ build CMakeFiles/Algorithms_lb1.dir/Generator.cpp.o: CXX_COMPILER__Algorithms_lb
 #############################################
 # Link the executable Algorithms_lb1
 
-build Algorithms_lb1: CXX_EXECUTABLE_LINKER__Algorithms_lb1_Release CMakeFiles/Algorithms_lb1.dir/main.cpp.o CMakeFiles/Algorithms_lb1.dir/Timer.cpp.o CMakeFiles/Algorithms_lb1.dir/UnrolledLinkedList.cpp.o CMakeFiles/Algorithms_lb1.dir/Node.cpp.o CMakeFiles/Algorithms_lb1.dir/Generator.cpp.o
+build Algorithms_lb1: CXX_EXECUTABLE_LINKER__Algorithms_lb1_Release CMakeFiles/Algorithms_lb1.dir/main.cpp.o CMakeFiles/Algorithms_lb1.dir/src/Timer.cpp.o CMakeFiles/Algorithms_lb1.dir/src/UnrolledLinkedList.cpp.o CMakeFiles/Algorithms_lb1.dir/src/Node.cpp.o CMakeFiles/Algorithms_lb1.dir/src/Generator.cpp.o
   FLAGS = -O3 -DNDEBUG -O2
   OBJECT_DIR = CMakeFiles/Algorithms_lb1.dir
   POST_BUILD = :
