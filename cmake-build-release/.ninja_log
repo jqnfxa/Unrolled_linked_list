@@ -1,0 +1,7 @@
+# ninja log v5
+1147	1256	1695066092974423939	Algorithms_lb1	7c855e01c8a953dc
+1	1327	1695065716247892514	CMakeFiles/Algorithms_lb1.dir/Timer.cpp.o	4d16a27add8ca9ec
+2	1147	1695066092866423151	CMakeFiles/Algorithms_lb1.dir/main.cpp.o	fd53dd26de4a0ea3
+1380	2591	1695065717511900881	CMakeFiles/Algorithms_lb1.dir/Generator.cpp.o	85550221484a0ea8
+2	912	1695066092630421429	CMakeFiles/Algorithms_lb1.dir/UnrolledLinkedList.cpp.o	d9f51f5e6cccffe6
+1329	1791	1695065716711895586	CMakeFiles/Algorithms_lb1.dir/Node.cpp.o	8323ee6f6bfa116b

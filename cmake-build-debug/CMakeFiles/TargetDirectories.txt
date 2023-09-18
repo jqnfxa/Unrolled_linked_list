@@ -1,0 +1,3 @@
+/home/shard/CLionProjects/Algorithms_lb1/cmake-build-debug/CMakeFiles/Algorithms_lb1.dir
+/home/shard/CLionProjects/Algorithms_lb1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/shard/CLionProjects/Algorithms_lb1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
