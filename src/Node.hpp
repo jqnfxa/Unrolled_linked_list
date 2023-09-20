@@ -7,7 +7,11 @@ class Node {
   int size;
   Node *next;
   Node *prev;
+
   std::vector<int> elements;
 
-  explicit Node(int maxElements, Node *previous = nullptr, Node *next = nullptr);
+  explicit Node(int max_elements, Node *previous = nullptr, Node *next = nullptr);
+  Node *insert_node(Node *old);
+  [[nodiscard]] bool is_full() const;
+  [[nodiscard]] bool empty() const;
 };
