@@ -1,4 +1,4 @@
-#include <UnrolledLinkedList.hpp>
+#include "Util/UnrolledLinkedList.hpp"
 #include <random>
 #include "gtest/gtest.h"
 
@@ -12,7 +12,6 @@ TEST(UnrolledLinkedListEraseSuite, PopBack)
 		ull.push_back(value);
 		std::cerr << ull.size() << ' ' << ull << '\n';
 	}
-
 	while (!ull.empty())
 	{
 		ull.pop_back();
@@ -30,7 +29,6 @@ TEST(UnrolledLinkedListEraseSuite, PopFront)
 		ull.push_back(value);
 		std::cerr << ull.size() << ' ' << ull << '\n';
 	}
-
 	while (!ull.empty())
 	{
 		ull.pop_front();

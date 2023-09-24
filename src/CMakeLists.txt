@@ -6,7 +6,4 @@ set(SOURCES ${SOURCES})
 
 add_executable(${BINARY}_run ${SOURCES})
 
-add_library(${BINARY}_lib STATIC ${SOURCES}
-        VectorTest.hpp
-        ListTest.hpp
-        UnrolledListTest.hpp)
+add_library(${BINARY}_lib STATIC ${SOURCES})

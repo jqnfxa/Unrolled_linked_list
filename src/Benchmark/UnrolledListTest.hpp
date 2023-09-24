@@ -1,6 +1,6 @@
-#include "Timer.hpp"
-#include "Generator.hpp"
-#include "UnrolledLinkedList.hpp"
+#include "Profiler/Timer.hpp"
+#include "Random/Generator.hpp"
+#include "Util/UnrolledLinkedList.hpp"
 #include <numeric>
 #include <iostream>
 #include <random>

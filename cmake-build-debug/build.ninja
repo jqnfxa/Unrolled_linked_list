@@ -12,7 +12,7 @@
 
 # =============================================================================
 # Project: Algorithms_lb1
-# Configurations: Release
+# Configurations: Debug
 # =============================================================================
 
 #############################################
@@ -24,7 +24,7 @@ ninja_required_version = 1.5
 #############################################
 # Set configuration variable for custom commands.
 
-CONFIGURATION = Release
+CONFIGURATION = Debug
 # =============================================================================
 # Include auxiliary files.
 
@@ -119,37 +119,37 @@ build install/strip: phony CMakeFiles/install/strip.util
 
 build cmake_object_order_depends_target_Algorithms_lb1_run: phony || src/CMakeFiles/Algorithms_lb1_run.dir
 
-build src/CMakeFiles/Algorithms_lb1_run.dir/Generator.cpp.o: CXX_COMPILER__Algorithms_lb1_run_unscanned_Release /home/shard/CLionProjects/Algorithms_lb1/src/Generator.cpp || cmake_object_order_depends_target_Algorithms_lb1_run
+build src/CMakeFiles/Algorithms_lb1_run.dir/Generator.cpp.o: CXX_COMPILER__Algorithms_lb1_run_unscanned_Debug /home/shard/CLionProjects/Algorithms_lb1/src/Generator.cpp || cmake_object_order_depends_target_Algorithms_lb1_run
   DEP_FILE = src/CMakeFiles/Algorithms_lb1_run.dir/Generator.cpp.o.d
-  FLAGS = -O3 -DNDEBUG -O2 -std=gnu++20 -fdiagnostics-color=always
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   INCLUDES = -I/home/shard/CLionProjects/Algorithms_lb1/src
   OBJECT_DIR = src/CMakeFiles/Algorithms_lb1_run.dir
   OBJECT_FILE_DIR = src/CMakeFiles/Algorithms_lb1_run.dir
 
-build src/CMakeFiles/Algorithms_lb1_run.dir/Node.cpp.o: CXX_COMPILER__Algorithms_lb1_run_unscanned_Release /home/shard/CLionProjects/Algorithms_lb1/src/Node.cpp || cmake_object_order_depends_target_Algorithms_lb1_run
+build src/CMakeFiles/Algorithms_lb1_run.dir/Node.cpp.o: CXX_COMPILER__Algorithms_lb1_run_unscanned_Debug /home/shard/CLionProjects/Algorithms_lb1/src/Node.cpp || cmake_object_order_depends_target_Algorithms_lb1_run
   DEP_FILE = src/CMakeFiles/Algorithms_lb1_run.dir/Node.cpp.o.d
-  FLAGS = -O3 -DNDEBUG -O2 -std=gnu++20 -fdiagnostics-color=always
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   INCLUDES = -I/home/shard/CLionProjects/Algorithms_lb1/src
   OBJECT_DIR = src/CMakeFiles/Algorithms_lb1_run.dir
   OBJECT_FILE_DIR = src/CMakeFiles/Algorithms_lb1_run.dir
 
-build src/CMakeFiles/Algorithms_lb1_run.dir/Timer.cpp.o: CXX_COMPILER__Algorithms_lb1_run_unscanned_Release /home/shard/CLionProjects/Algorithms_lb1/src/Timer.cpp || cmake_object_order_depends_target_Algorithms_lb1_run
+build src/CMakeFiles/Algorithms_lb1_run.dir/Timer.cpp.o: CXX_COMPILER__Algorithms_lb1_run_unscanned_Debug /home/shard/CLionProjects/Algorithms_lb1/src/Timer.cpp || cmake_object_order_depends_target_Algorithms_lb1_run
   DEP_FILE = src/CMakeFiles/Algorithms_lb1_run.dir/Timer.cpp.o.d
-  FLAGS = -O3 -DNDEBUG -O2 -std=gnu++20 -fdiagnostics-color=always
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   INCLUDES = -I/home/shard/CLionProjects/Algorithms_lb1/src
   OBJECT_DIR = src/CMakeFiles/Algorithms_lb1_run.dir
   OBJECT_FILE_DIR = src/CMakeFiles/Algorithms_lb1_run.dir
 
-build src/CMakeFiles/Algorithms_lb1_run.dir/UnrolledLinkedList.cpp.o: CXX_COMPILER__Algorithms_lb1_run_unscanned_Release /home/shard/CLionProjects/Algorithms_lb1/src/UnrolledLinkedList.cpp || cmake_object_order_depends_target_Algorithms_lb1_run
+build src/CMakeFiles/Algorithms_lb1_run.dir/UnrolledLinkedList.cpp.o: CXX_COMPILER__Algorithms_lb1_run_unscanned_Debug /home/shard/CLionProjects/Algorithms_lb1/src/UnrolledLinkedList.cpp || cmake_object_order_depends_target_Algorithms_lb1_run
   DEP_FILE = src/CMakeFiles/Algorithms_lb1_run.dir/UnrolledLinkedList.cpp.o.d
-  FLAGS = -O3 -DNDEBUG -O2 -std=gnu++20 -fdiagnostics-color=always
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   INCLUDES = -I/home/shard/CLionProjects/Algorithms_lb1/src
   OBJECT_DIR = src/CMakeFiles/Algorithms_lb1_run.dir
   OBJECT_FILE_DIR = src/CMakeFiles/Algorithms_lb1_run.dir
 
-build src/CMakeFiles/Algorithms_lb1_run.dir/main.cpp.o: CXX_COMPILER__Algorithms_lb1_run_unscanned_Release /home/shard/CLionProjects/Algorithms_lb1/src/main.cpp || cmake_object_order_depends_target_Algorithms_lb1_run
+build src/CMakeFiles/Algorithms_lb1_run.dir/main.cpp.o: CXX_COMPILER__Algorithms_lb1_run_unscanned_Debug /home/shard/CLionProjects/Algorithms_lb1/src/main.cpp || cmake_object_order_depends_target_Algorithms_lb1_run
   DEP_FILE = src/CMakeFiles/Algorithms_lb1_run.dir/main.cpp.o.d
-  FLAGS = -O3 -DNDEBUG -O2 -std=gnu++20 -fdiagnostics-color=always
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   INCLUDES = -I/home/shard/CLionProjects/Algorithms_lb1/src
   OBJECT_DIR = src/CMakeFiles/Algorithms_lb1_run.dir
   OBJECT_FILE_DIR = src/CMakeFiles/Algorithms_lb1_run.dir
@@ -162,8 +162,8 @@ build src/CMakeFiles/Algorithms_lb1_run.dir/main.cpp.o: CXX_COMPILER__Algorithms
 #############################################
 # Link the executable src/Algorithms_lb1_run
 
-build src/Algorithms_lb1_run: CXX_EXECUTABLE_LINKER__Algorithms_lb1_run_Release src/CMakeFiles/Algorithms_lb1_run.dir/Generator.cpp.o src/CMakeFiles/Algorithms_lb1_run.dir/Node.cpp.o src/CMakeFiles/Algorithms_lb1_run.dir/Timer.cpp.o src/CMakeFiles/Algorithms_lb1_run.dir/UnrolledLinkedList.cpp.o src/CMakeFiles/Algorithms_lb1_run.dir/main.cpp.o
-  FLAGS = -O3 -DNDEBUG -O2
+build src/Algorithms_lb1_run: CXX_EXECUTABLE_LINKER__Algorithms_lb1_run_Debug src/CMakeFiles/Algorithms_lb1_run.dir/Generator.cpp.o src/CMakeFiles/Algorithms_lb1_run.dir/Node.cpp.o src/CMakeFiles/Algorithms_lb1_run.dir/Timer.cpp.o src/CMakeFiles/Algorithms_lb1_run.dir/UnrolledLinkedList.cpp.o src/CMakeFiles/Algorithms_lb1_run.dir/main.cpp.o
+  FLAGS = -g
   OBJECT_DIR = src/CMakeFiles/Algorithms_lb1_run.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -179,37 +179,37 @@ build src/Algorithms_lb1_run: CXX_EXECUTABLE_LINKER__Algorithms_lb1_run_Release 
 
 build cmake_object_order_depends_target_Algorithms_lb1_lib: phony || src/CMakeFiles/Algorithms_lb1_lib.dir
 
-build src/CMakeFiles/Algorithms_lb1_lib.dir/Generator.cpp.o: CXX_COMPILER__Algorithms_lb1_lib_unscanned_Release /home/shard/CLionProjects/Algorithms_lb1/src/Generator.cpp || cmake_object_order_depends_target_Algorithms_lb1_lib
+build src/CMakeFiles/Algorithms_lb1_lib.dir/Generator.cpp.o: CXX_COMPILER__Algorithms_lb1_lib_unscanned_Debug /home/shard/CLionProjects/Algorithms_lb1/src/Generator.cpp || cmake_object_order_depends_target_Algorithms_lb1_lib
   DEP_FILE = src/CMakeFiles/Algorithms_lb1_lib.dir/Generator.cpp.o.d
-  FLAGS = -O3 -DNDEBUG -O2 -std=gnu++20 -fdiagnostics-color=always
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   INCLUDES = -I/home/shard/CLionProjects/Algorithms_lb1/src
   OBJECT_DIR = src/CMakeFiles/Algorithms_lb1_lib.dir
   OBJECT_FILE_DIR = src/CMakeFiles/Algorithms_lb1_lib.dir
 
-build src/CMakeFiles/Algorithms_lb1_lib.dir/Node.cpp.o: CXX_COMPILER__Algorithms_lb1_lib_unscanned_Release /home/shard/CLionProjects/Algorithms_lb1/src/Node.cpp || cmake_object_order_depends_target_Algorithms_lb1_lib
+build src/CMakeFiles/Algorithms_lb1_lib.dir/Node.cpp.o: CXX_COMPILER__Algorithms_lb1_lib_unscanned_Debug /home/shard/CLionProjects/Algorithms_lb1/src/Node.cpp || cmake_object_order_depends_target_Algorithms_lb1_lib
   DEP_FILE = src/CMakeFiles/Algorithms_lb1_lib.dir/Node.cpp.o.d
-  FLAGS = -O3 -DNDEBUG -O2 -std=gnu++20 -fdiagnostics-color=always
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   INCLUDES = -I/home/shard/CLionProjects/Algorithms_lb1/src
   OBJECT_DIR = src/CMakeFiles/Algorithms_lb1_lib.dir
   OBJECT_FILE_DIR = src/CMakeFiles/Algorithms_lb1_lib.dir
 
-build src/CMakeFiles/Algorithms_lb1_lib.dir/Timer.cpp.o: CXX_COMPILER__Algorithms_lb1_lib_unscanned_Release /home/shard/CLionProjects/Algorithms_lb1/src/Timer.cpp || cmake_object_order_depends_target_Algorithms_lb1_lib
+build src/CMakeFiles/Algorithms_lb1_lib.dir/Timer.cpp.o: CXX_COMPILER__Algorithms_lb1_lib_unscanned_Debug /home/shard/CLionProjects/Algorithms_lb1/src/Timer.cpp || cmake_object_order_depends_target_Algorithms_lb1_lib
   DEP_FILE = src/CMakeFiles/Algorithms_lb1_lib.dir/Timer.cpp.o.d
-  FLAGS = -O3 -DNDEBUG -O2 -std=gnu++20 -fdiagnostics-color=always
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   INCLUDES = -I/home/shard/CLionProjects/Algorithms_lb1/src
   OBJECT_DIR = src/CMakeFiles/Algorithms_lb1_lib.dir
   OBJECT_FILE_DIR = src/CMakeFiles/Algorithms_lb1_lib.dir
 
-build src/CMakeFiles/Algorithms_lb1_lib.dir/UnrolledLinkedList.cpp.o: CXX_COMPILER__Algorithms_lb1_lib_unscanned_Release /home/shard/CLionProjects/Algorithms_lb1/src/UnrolledLinkedList.cpp || cmake_object_order_depends_target_Algorithms_lb1_lib
+build src/CMakeFiles/Algorithms_lb1_lib.dir/UnrolledLinkedList.cpp.o: CXX_COMPILER__Algorithms_lb1_lib_unscanned_Debug /home/shard/CLionProjects/Algorithms_lb1/src/UnrolledLinkedList.cpp || cmake_object_order_depends_target_Algorithms_lb1_lib
   DEP_FILE = src/CMakeFiles/Algorithms_lb1_lib.dir/UnrolledLinkedList.cpp.o.d
-  FLAGS = -O3 -DNDEBUG -O2 -std=gnu++20 -fdiagnostics-color=always
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   INCLUDES = -I/home/shard/CLionProjects/Algorithms_lb1/src
   OBJECT_DIR = src/CMakeFiles/Algorithms_lb1_lib.dir
   OBJECT_FILE_DIR = src/CMakeFiles/Algorithms_lb1_lib.dir
 
-build src/CMakeFiles/Algorithms_lb1_lib.dir/main.cpp.o: CXX_COMPILER__Algorithms_lb1_lib_unscanned_Release /home/shard/CLionProjects/Algorithms_lb1/src/main.cpp || cmake_object_order_depends_target_Algorithms_lb1_lib
+build src/CMakeFiles/Algorithms_lb1_lib.dir/main.cpp.o: CXX_COMPILER__Algorithms_lb1_lib_unscanned_Debug /home/shard/CLionProjects/Algorithms_lb1/src/main.cpp || cmake_object_order_depends_target_Algorithms_lb1_lib
   DEP_FILE = src/CMakeFiles/Algorithms_lb1_lib.dir/main.cpp.o.d
-  FLAGS = -O3 -DNDEBUG -O2 -std=gnu++20 -fdiagnostics-color=always
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   INCLUDES = -I/home/shard/CLionProjects/Algorithms_lb1/src
   OBJECT_DIR = src/CMakeFiles/Algorithms_lb1_lib.dir
   OBJECT_FILE_DIR = src/CMakeFiles/Algorithms_lb1_lib.dir
@@ -222,8 +222,8 @@ build src/CMakeFiles/Algorithms_lb1_lib.dir/main.cpp.o: CXX_COMPILER__Algorithms
 #############################################
 # Link the static library src/libAlgorithms_lb1_lib.a
 
-build src/libAlgorithms_lb1_lib.a: CXX_STATIC_LIBRARY_LINKER__Algorithms_lb1_lib_Release src/CMakeFiles/Algorithms_lb1_lib.dir/Generator.cpp.o src/CMakeFiles/Algorithms_lb1_lib.dir/Node.cpp.o src/CMakeFiles/Algorithms_lb1_lib.dir/Timer.cpp.o src/CMakeFiles/Algorithms_lb1_lib.dir/UnrolledLinkedList.cpp.o src/CMakeFiles/Algorithms_lb1_lib.dir/main.cpp.o
-  LANGUAGE_COMPILE_FLAGS = -O3 -DNDEBUG -O2
+build src/libAlgorithms_lb1_lib.a: CXX_STATIC_LIBRARY_LINKER__Algorithms_lb1_lib_Debug src/CMakeFiles/Algorithms_lb1_lib.dir/Generator.cpp.o src/CMakeFiles/Algorithms_lb1_lib.dir/Node.cpp.o src/CMakeFiles/Algorithms_lb1_lib.dir/Timer.cpp.o src/CMakeFiles/Algorithms_lb1_lib.dir/UnrolledLinkedList.cpp.o src/CMakeFiles/Algorithms_lb1_lib.dir/main.cpp.o
+  LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = src/CMakeFiles/Algorithms_lb1_lib.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -309,30 +309,30 @@ build src/install/strip: phony src/CMakeFiles/install/strip.util
 
 build cmake_object_order_depends_target_Algorithms_lb1_tst: phony || cmake_object_order_depends_target_Algorithms_lb1_lib cmake_object_order_depends_target_gtest
 
-build tst/CMakeFiles/Algorithms_lb1_tst.dir/UnrolledLinkedListEraseTest.cpp.o: CXX_COMPILER__Algorithms_lb1_tst_unscanned_Release /home/shard/CLionProjects/Algorithms_lb1/tst/UnrolledLinkedListEraseTest.cpp || cmake_object_order_depends_target_Algorithms_lb1_tst
+build tst/CMakeFiles/Algorithms_lb1_tst.dir/UnrolledLinkedListEraseTest.cpp.o: CXX_COMPILER__Algorithms_lb1_tst_unscanned_Debug /home/shard/CLionProjects/Algorithms_lb1/tst/UnrolledLinkedListEraseTest.cpp || cmake_object_order_depends_target_Algorithms_lb1_tst
   DEP_FILE = tst/CMakeFiles/Algorithms_lb1_tst.dir/UnrolledLinkedListEraseTest.cpp.o.d
-  FLAGS = -O3 -DNDEBUG -O2 -std=gnu++20 -fdiagnostics-color=always
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   INCLUDES = -I/home/shard/CLionProjects/Algorithms_lb1/src -isystem /home/shard/CLionProjects/Algorithms_lb1/lib/googletest/googletest/include -isystem /home/shard/CLionProjects/Algorithms_lb1/lib/googletest/googletest
   OBJECT_DIR = tst/CMakeFiles/Algorithms_lb1_tst.dir
   OBJECT_FILE_DIR = tst/CMakeFiles/Algorithms_lb1_tst.dir
 
-build tst/CMakeFiles/Algorithms_lb1_tst.dir/UnrolledLinkedListFindTest.cpp.o: CXX_COMPILER__Algorithms_lb1_tst_unscanned_Release /home/shard/CLionProjects/Algorithms_lb1/tst/UnrolledLinkedListFindTest.cpp || cmake_object_order_depends_target_Algorithms_lb1_tst
+build tst/CMakeFiles/Algorithms_lb1_tst.dir/UnrolledLinkedListFindTest.cpp.o: CXX_COMPILER__Algorithms_lb1_tst_unscanned_Debug /home/shard/CLionProjects/Algorithms_lb1/tst/UnrolledLinkedListFindTest.cpp || cmake_object_order_depends_target_Algorithms_lb1_tst
   DEP_FILE = tst/CMakeFiles/Algorithms_lb1_tst.dir/UnrolledLinkedListFindTest.cpp.o.d
-  FLAGS = -O3 -DNDEBUG -O2 -std=gnu++20 -fdiagnostics-color=always
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   INCLUDES = -I/home/shard/CLionProjects/Algorithms_lb1/src -isystem /home/shard/CLionProjects/Algorithms_lb1/lib/googletest/googletest/include -isystem /home/shard/CLionProjects/Algorithms_lb1/lib/googletest/googletest
   OBJECT_DIR = tst/CMakeFiles/Algorithms_lb1_tst.dir
   OBJECT_FILE_DIR = tst/CMakeFiles/Algorithms_lb1_tst.dir
 
-build tst/CMakeFiles/Algorithms_lb1_tst.dir/UnrolledLinkedListInsertTest.cpp.o: CXX_COMPILER__Algorithms_lb1_tst_unscanned_Release /home/shard/CLionProjects/Algorithms_lb1/tst/UnrolledLinkedListInsertTest.cpp || cmake_object_order_depends_target_Algorithms_lb1_tst
+build tst/CMakeFiles/Algorithms_lb1_tst.dir/UnrolledLinkedListInsertTest.cpp.o: CXX_COMPILER__Algorithms_lb1_tst_unscanned_Debug /home/shard/CLionProjects/Algorithms_lb1/tst/UnrolledLinkedListInsertTest.cpp || cmake_object_order_depends_target_Algorithms_lb1_tst
   DEP_FILE = tst/CMakeFiles/Algorithms_lb1_tst.dir/UnrolledLinkedListInsertTest.cpp.o.d
-  FLAGS = -O3 -DNDEBUG -O2 -std=gnu++20 -fdiagnostics-color=always
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   INCLUDES = -I/home/shard/CLionProjects/Algorithms_lb1/src -isystem /home/shard/CLionProjects/Algorithms_lb1/lib/googletest/googletest/include -isystem /home/shard/CLionProjects/Algorithms_lb1/lib/googletest/googletest
   OBJECT_DIR = tst/CMakeFiles/Algorithms_lb1_tst.dir
   OBJECT_FILE_DIR = tst/CMakeFiles/Algorithms_lb1_tst.dir
 
-build tst/CMakeFiles/Algorithms_lb1_tst.dir/main.cpp.o: CXX_COMPILER__Algorithms_lb1_tst_unscanned_Release /home/shard/CLionProjects/Algorithms_lb1/tst/main.cpp || cmake_object_order_depends_target_Algorithms_lb1_tst
+build tst/CMakeFiles/Algorithms_lb1_tst.dir/main.cpp.o: CXX_COMPILER__Algorithms_lb1_tst_unscanned_Debug /home/shard/CLionProjects/Algorithms_lb1/tst/main.cpp || cmake_object_order_depends_target_Algorithms_lb1_tst
   DEP_FILE = tst/CMakeFiles/Algorithms_lb1_tst.dir/main.cpp.o.d
-  FLAGS = -O3 -DNDEBUG -O2 -std=gnu++20 -fdiagnostics-color=always
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   INCLUDES = -I/home/shard/CLionProjects/Algorithms_lb1/src -isystem /home/shard/CLionProjects/Algorithms_lb1/lib/googletest/googletest/include -isystem /home/shard/CLionProjects/Algorithms_lb1/lib/googletest/googletest
   OBJECT_DIR = tst/CMakeFiles/Algorithms_lb1_tst.dir
   OBJECT_FILE_DIR = tst/CMakeFiles/Algorithms_lb1_tst.dir
@@ -345,8 +345,8 @@ build tst/CMakeFiles/Algorithms_lb1_tst.dir/main.cpp.o: CXX_COMPILER__Algorithms
 #############################################
 # Link the executable tst/Algorithms_lb1_tst
 
-build tst/Algorithms_lb1_tst: CXX_EXECUTABLE_LINKER__Algorithms_lb1_tst_Release tst/CMakeFiles/Algorithms_lb1_tst.dir/UnrolledLinkedListEraseTest.cpp.o tst/CMakeFiles/Algorithms_lb1_tst.dir/UnrolledLinkedListFindTest.cpp.o tst/CMakeFiles/Algorithms_lb1_tst.dir/UnrolledLinkedListInsertTest.cpp.o tst/CMakeFiles/Algorithms_lb1_tst.dir/main.cpp.o | src/libAlgorithms_lb1_lib.a lib/libgtest.a || lib/libgtest.a src/libAlgorithms_lb1_lib.a
-  FLAGS = -O3 -DNDEBUG -O2
+build tst/Algorithms_lb1_tst: CXX_EXECUTABLE_LINKER__Algorithms_lb1_tst_Debug tst/CMakeFiles/Algorithms_lb1_tst.dir/UnrolledLinkedListEraseTest.cpp.o tst/CMakeFiles/Algorithms_lb1_tst.dir/UnrolledLinkedListFindTest.cpp.o tst/CMakeFiles/Algorithms_lb1_tst.dir/UnrolledLinkedListInsertTest.cpp.o tst/CMakeFiles/Algorithms_lb1_tst.dir/main.cpp.o | src/libAlgorithms_lb1_lib.a lib/libgtest.a || lib/libgtest.a src/libAlgorithms_lb1_lib.a
+  FLAGS = -g
   LINK_LIBRARIES = src/libAlgorithms_lb1_lib.a  lib/libgtest.a
   OBJECT_DIR = tst/CMakeFiles/Algorithms_lb1_tst.dir
   POST_BUILD = :
@@ -503,9 +503,9 @@ build lib/googletest/install/strip: phony lib/googletest/CMakeFiles/install/stri
 
 build cmake_object_order_depends_target_gmock: phony || cmake_object_order_depends_target_gtest
 
-build lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: CXX_COMPILER__gmock_unscanned_Release /home/shard/CLionProjects/Algorithms_lb1/lib/googletest/googlemock/src/gmock-all.cc || cmake_object_order_depends_target_gmock
+build lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: CXX_COMPILER__gmock_unscanned_Debug /home/shard/CLionProjects/Algorithms_lb1/lib/googletest/googlemock/src/gmock-all.cc || cmake_object_order_depends_target_gmock
   DEP_FILE = lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o.d
-  FLAGS = -O3 -DNDEBUG -O2 -std=c++20 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  FLAGS = -g -std=c++20 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
   INCLUDES = -I/home/shard/CLionProjects/Algorithms_lb1/src -I/home/shard/CLionProjects/Algorithms_lb1/lib/googletest/googlemock/include -I/home/shard/CLionProjects/Algorithms_lb1/lib/googletest/googlemock -isystem /home/shard/CLionProjects/Algorithms_lb1/lib/googletest/googletest/include -isystem /home/shard/CLionProjects/Algorithms_lb1/lib/googletest/googletest
   OBJECT_DIR = lib/googletest/googlemock/CMakeFiles/gmock.dir
   OBJECT_FILE_DIR = lib/googletest/googlemock/CMakeFiles/gmock.dir/src
@@ -518,8 +518,8 @@ build lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: CXX_COM
 #############################################
 # Link the static library lib/libgmock.a
 
-build lib/libgmock.a: CXX_STATIC_LIBRARY_LINKER__gmock_Release lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o || lib/libgtest.a
-  LANGUAGE_COMPILE_FLAGS = -O3 -DNDEBUG -O2
+build lib/libgmock.a: CXX_STATIC_LIBRARY_LINKER__gmock_Debug lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o || lib/libgtest.a
+  LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = lib/googletest/googlemock/CMakeFiles/gmock.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -535,9 +535,9 @@ build lib/libgmock.a: CXX_STATIC_LIBRARY_LINKER__gmock_Release lib/googletest/go
 
 build cmake_object_order_depends_target_gmock_main: phony || cmake_object_order_depends_target_gmock cmake_object_order_depends_target_gtest
 
-build lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o: CXX_COMPILER__gmock_main_unscanned_Release /home/shard/CLionProjects/Algorithms_lb1/lib/googletest/googlemock/src/gmock_main.cc || cmake_object_order_depends_target_gmock_main
+build lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o: CXX_COMPILER__gmock_main_unscanned_Debug /home/shard/CLionProjects/Algorithms_lb1/lib/googletest/googlemock/src/gmock_main.cc || cmake_object_order_depends_target_gmock_main
   DEP_FILE = lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o.d
-  FLAGS = -O3 -DNDEBUG -O2 -std=c++20 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  FLAGS = -g -std=c++20 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
   INCLUDES = -I/home/shard/CLionProjects/Algorithms_lb1/src -isystem /home/shard/CLionProjects/Algorithms_lb1/lib/googletest/googlemock/include -isystem /home/shard/CLionProjects/Algorithms_lb1/lib/googletest/googlemock -isystem /home/shard/CLionProjects/Algorithms_lb1/lib/googletest/googletest/include -isystem /home/shard/CLionProjects/Algorithms_lb1/lib/googletest/googletest
   OBJECT_DIR = lib/googletest/googlemock/CMakeFiles/gmock_main.dir
   OBJECT_FILE_DIR = lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src
@@ -550,8 +550,8 @@ build lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o: C
 #############################################
 # Link the static library lib/libgmock_main.a
 
-build lib/libgmock_main.a: CXX_STATIC_LIBRARY_LINKER__gmock_main_Release lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o || lib/libgmock.a lib/libgtest.a
-  LANGUAGE_COMPILE_FLAGS = -O3 -DNDEBUG -O2
+build lib/libgmock_main.a: CXX_STATIC_LIBRARY_LINKER__gmock_main_Debug lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o || lib/libgmock.a lib/libgtest.a
+  LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = lib/googletest/googlemock/CMakeFiles/gmock_main.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -637,9 +637,9 @@ build lib/googletest/googlemock/install/strip: phony lib/googletest/googlemock/C
 
 build cmake_object_order_depends_target_gtest: phony || lib/googletest/googletest/CMakeFiles/gtest.dir
 
-build lib/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: CXX_COMPILER__gtest_unscanned_Release /home/shard/CLionProjects/Algorithms_lb1/lib/googletest/googletest/src/gtest-all.cc || cmake_object_order_depends_target_gtest
+build lib/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: CXX_COMPILER__gtest_unscanned_Debug /home/shard/CLionProjects/Algorithms_lb1/lib/googletest/googletest/src/gtest-all.cc || cmake_object_order_depends_target_gtest
   DEP_FILE = lib/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o.d
-  FLAGS = -O3 -DNDEBUG -O2 -std=c++20 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  FLAGS = -g -std=c++20 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
   INCLUDES = -I/home/shard/CLionProjects/Algorithms_lb1/src -I/home/shard/CLionProjects/Algorithms_lb1/lib/googletest/googletest/include -I/home/shard/CLionProjects/Algorithms_lb1/lib/googletest/googletest
   OBJECT_DIR = lib/googletest/googletest/CMakeFiles/gtest.dir
   OBJECT_FILE_DIR = lib/googletest/googletest/CMakeFiles/gtest.dir/src
@@ -652,8 +652,8 @@ build lib/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: CXX_COM
 #############################################
 # Link the static library lib/libgtest.a
 
-build lib/libgtest.a: CXX_STATIC_LIBRARY_LINKER__gtest_Release lib/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
-  LANGUAGE_COMPILE_FLAGS = -O3 -DNDEBUG -O2
+build lib/libgtest.a: CXX_STATIC_LIBRARY_LINKER__gtest_Debug lib/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+  LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = lib/googletest/googletest/CMakeFiles/gtest.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -669,9 +669,9 @@ build lib/libgtest.a: CXX_STATIC_LIBRARY_LINKER__gtest_Release lib/googletest/go
 
 build cmake_object_order_depends_target_gtest_main: phony || cmake_object_order_depends_target_gtest
 
-build lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: CXX_COMPILER__gtest_main_unscanned_Release /home/shard/CLionProjects/Algorithms_lb1/lib/googletest/googletest/src/gtest_main.cc || cmake_object_order_depends_target_gtest_main
+build lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: CXX_COMPILER__gtest_main_unscanned_Debug /home/shard/CLionProjects/Algorithms_lb1/lib/googletest/googletest/src/gtest_main.cc || cmake_object_order_depends_target_gtest_main
   DEP_FILE = lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o.d
-  FLAGS = -O3 -DNDEBUG -O2 -std=c++20 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  FLAGS = -g -std=c++20 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
   INCLUDES = -I/home/shard/CLionProjects/Algorithms_lb1/src -isystem /home/shard/CLionProjects/Algorithms_lb1/lib/googletest/googletest/include -isystem /home/shard/CLionProjects/Algorithms_lb1/lib/googletest/googletest
   OBJECT_DIR = lib/googletest/googletest/CMakeFiles/gtest_main.dir
   OBJECT_FILE_DIR = lib/googletest/googletest/CMakeFiles/gtest_main.dir/src
@@ -684,8 +684,8 @@ build lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: C
 #############################################
 # Link the static library lib/libgtest_main.a
 
-build lib/libgtest_main.a: CXX_STATIC_LIBRARY_LINKER__gtest_main_Release lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o || lib/libgtest.a
-  LANGUAGE_COMPILE_FLAGS = -O3 -DNDEBUG -O2
+build lib/libgtest_main.a: CXX_STATIC_LIBRARY_LINKER__gtest_main_Debug lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o || lib/libgtest.a
+  LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = lib/googletest/googletest/CMakeFiles/gtest_main.dir
   POST_BUILD = :
   PRE_LINK = :

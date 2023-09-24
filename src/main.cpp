@@ -1,7 +1,7 @@
-#include "Timer.hpp"
-#include "Generator.hpp"
-#include "UnrolledLinkedList.hpp"
-#include "UnrolledListTest.hpp"
+#include "Profiler/Timer.hpp"
+#include "Random/Generator.hpp"
+#include "Util/UnrolledLinkedList.hpp"
+#include "Benchmark/UnrolledListTest.hpp"
 #include <list>
 
 void check(std::vector<int> &arr_1, std::vector<int> &arr_2, int n_array = 4)
@@ -94,10 +94,29 @@ void check(std::vector<int> &arr_1, std::vector<int> &arr_2, int n_array = 4)
 			}
 		}
 	}
+	{
+		UnrolledLinkedList container(n_array);
+
+		for (auto &item: arr_1)
+		{
+			container.push_back(item);
+		}
+		{
+			auto message = "Erase " + std::to_string(arr_2.size()) + " times";
+
+			Timer timer(std::cerr, message);
+
+			for (auto &item : arr_2)
+			{
+				container.erase(item);
+			}
+		}
+	}
 }
 
 int main()
 {
+	// benchmark_unrolled_list(100, 1000, 10000, 4000);
 	// call check
 	return 0;
 }

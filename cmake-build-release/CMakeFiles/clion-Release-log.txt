@@ -1,4 +1,4 @@
 /home/shard/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_MAKE_PROGRAM=/home/shard/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/ninja/linux/x64/ninja -G Ninja -S /home/shard/CLionProjects/Algorithms_lb1 -B /home/shard/CLionProjects/Algorithms_lb1/cmake-build-release
--- Configuring done (0.1s)
--- Generating done (0.0s)
+-- Configuring done (0.7s)
+-- Generating done (0.1s)
 -- Build files have been written to: /home/shard/CLionProjects/Algorithms_lb1/cmake-build-release
